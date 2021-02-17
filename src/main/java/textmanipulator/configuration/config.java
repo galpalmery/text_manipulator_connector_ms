@@ -1,6 +1,6 @@
-package harel.interview.textmanipulator.configuration;
+package textmanipulator.configuration;
 
-import harel.interview.textmanipulator.services.ConnectorApplicationService;
+import textmanipulator.services.ConnectorApplicationService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

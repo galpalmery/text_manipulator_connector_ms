@@ -1,4 +1,4 @@
-package harel.interview.textmanipulator.messaging;
+package textmanipulator.messaging;
 
 import feign.Feign;
 import feign.Logger;
@@ -6,8 +6,8 @@ import feign.gson.GsonDecoder;
 import feign.gson.GsonEncoder;
 import feign.okhttp.OkHttpClient;
 import feign.slf4j.Slf4jLogger;
-import harel.interview.textmanipulator.externalapi.ITextManipulatorDataClient;
-import harel.interview.textmanipulator.model.TextManipulationDataModel;
+import textmanipulator.externalapi.ITextManipulatorDataClient;
+import textmanipulator.model.TextManipulationDataModel;
 import org.springframework.beans.factory.annotation.Value;
 
 import java.util.concurrent.CountDownLatch;

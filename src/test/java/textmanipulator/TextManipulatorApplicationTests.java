@@ -1,4 +1,4 @@
-package harel.interview.textManipulator;
+package textmanipulator;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.amqp.AmqpConnectException;
@@ -6,14 +6,13 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import textmanipulator.messaging.MessageReceiver;
+import textmanipulator.messaging.MessagingConfig;
 
 import java.util.concurrent.TimeUnit;
 
 @SpringBootTest
 public class TextManipulatorApplicationTests {
-
-	@MockBean
-	private MessageSender runner;
 
 	@Autowired
 	private RabbitTemplate rabbitTemplate;

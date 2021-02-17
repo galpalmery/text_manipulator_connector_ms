@@ -1,4 +1,4 @@
-package harel.interview.textmanipulator.model;
+package textmanipulator.model;
 
 public class TextManipulationDataResource {
 

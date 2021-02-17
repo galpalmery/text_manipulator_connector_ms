@@ -1,4 +1,4 @@
-package harel.interview.textmanipulator.messaging;
+package textmanipulator.messaging;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 public class MessagingConfig {
     static final String topicExchangeName = "text-manipulator-topic";
     static final String routingKey = "text.manipulator.action";
-    static final String queueName = "tm-queue";
+    public static final String queueName = "tm-queue";
 
     @Bean
     Queue queue() {

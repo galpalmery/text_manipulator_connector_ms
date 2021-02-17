@@ -1,4 +1,4 @@
-package harel.interview.textmanipulator.services;
+package textmanipulator.services;
 
 import org.springframework.http.ResponseEntity;
 
